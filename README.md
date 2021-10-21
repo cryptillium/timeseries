@@ -9,7 +9,7 @@ This project will use many time series techniques to analyse and predict future 
 
 
 ## Installation Requirements
-install the following modules by running the following commands:
+install modules by running the following commands:
 
 - conda install -c conda-forge statsmodels
 - conda install arch-py -c conda-forge
