@@ -1,0 +1,11 @@
+conda install -c conda-forge statsmodels
+
+conda install arch-py -c conda-forge
+conda install numpy
+conda install -c conda-forge scikit-learn
+
+Note:
+=====
+Most recent version of statsmodels (0.13.0) gives an error for the ARMA model instead of a warning.  
+If you get this, downgrade to 0.12.2:
+conda install -c conda-forge statsmodels==0.12.2
